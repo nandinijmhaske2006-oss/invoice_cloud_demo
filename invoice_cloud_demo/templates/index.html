@@ -40,5 +40,10 @@
       <p class="meta">No invoices yet.</p>
     {% endif %}
   </div>
+<div class="mb-3">
+    <label for="phone" class="form-label">Customer Phone</label>
+    <input type="text" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" required placeholder="Enter 10-digit mobile number">
+    <div class="form-text">Must be exactly 10 digits.</div>
+</div>
 </body>
 </html>
